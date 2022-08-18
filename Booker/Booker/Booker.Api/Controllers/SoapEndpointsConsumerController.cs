@@ -8,21 +8,21 @@ namespace Booker.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class SoapController : ControllerBase
+    public class SoapEndpointsConsumerController : ControllerBase
     {
 
-        private readonly ILogger<SoapController> _logger;
+        private readonly ILogger<SoapEndpointsConsumerController> _logger;
 
-        public SoapController(ILogger<SoapController> logger)
+        public SoapEndpointsConsumerController(ILogger<SoapEndpointsConsumerController> logger)
         {
             _logger = logger;
         }
 
-        [HttpPost("{payload}")]
-        public Task<SoapResponse> PostNumberToWordsViaSoap([FromRoute] int payload)
+        [HttpPost("/PostNumberToWordsViaSoap/{number}")]
+        public Task<SoapResponse> PostNumberToWordsViaSoap([FromRoute] int number)
         {
             SoapCallLogic scl = new SoapCallLogic();
-            var response = scl.TrySoapCallAsync(payload);
+            var response = scl.MakeSoapCallAsync(number);
             return response;
         }
     }

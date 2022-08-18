@@ -5,7 +5,7 @@ namespace Booker.Api.Logic
 {
     public class SoapCallLogic
     {
-        public async Task<SoapResponse> TrySoapCallAsync(int payload)
+        public async Task<SoapResponse> MakeSoapCallAsync(int payload)
         {
             EndpointConfiguration endpointConfig = new EndpointConfiguration();
             var soapClient = new NumberConversionSoapTypeClient(endpointConfig);

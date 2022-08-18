@@ -1,10 +1,6 @@
-using Booker.Api.Logic;
-using Microsoft.AspNetCore.Mvc;
-using NumberConversionServiceReference;
-using static Booker.Api.Logic.SoapCallLogic;
-using static NumberConversionServiceReference.NumberConversionSoapTypeClient;
+﻿using Microsoft.AspNetCore.Mvc;
 
-namespace Booker.Api.Controllers
+namespace Booker.UI.Controllers
 {
     [ApiController]
     [Route("[controller]")]
@@ -22,7 +18,7 @@ namespace Booker.Api.Controllers
             _logger = logger;
         }
 
-        [HttpGet(Name = "GetWeatherForecast")]
+        [HttpGet]
         public IEnumerable<WeatherForecast> Get()
         {
             return Enumerable.Range(1, 5).Select(index => new WeatherForecast
@@ -32,7 +28,6 @@ namespace Booker.Api.Controllers
                 Summary = Summaries[Random.Shared.Next(Summaries.Length)]
             })
             .ToArray();
-        }       
-        //password for mysql@127.0.0.1:3306 u= root, pswd=Admin
+        }
     }
 }
