@@ -28,7 +28,8 @@ namespace Booker.Domain
         public List<T> getEntitySeedValues<T>()
         {
             var itemvalue = new List<T>();
-            using (StreamReader r = new StreamReader($"../Booker.Domain/Seed/{nameof(T)}.json"))
+            String type = typeof(T).Name;
+            using (StreamReader r = new StreamReader($"../Booker.Domain/Seed/{type}s.json"))
             {
                 string json = r.ReadToEnd();
                 itemvalue = JsonConvert.DeserializeObject<List<T>>(json);
