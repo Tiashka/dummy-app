@@ -1,11 +1,23 @@
 {
   "Version": 1,
-  "Hash": "MC3cYmeHoRyw/ZGCGOd9vy+dS+7gvCqvITseqKTevIk=",
+  "Hash": "QOI88KVS61kVbQdpRFjnTBPkRQv3PJUx3JZFfu2ZHnc=",
   "Source": "Booker.Api",
   "BasePath": "_content/Booker.Api",
   "Mode": "Default",
   "ManifestType": "Build",
-  "ReferencedProjectsConfiguration": [],
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\TiashkaSeetal\\source\\repos\\dummy-app\\Booker\\Booker\\Booker.Domain\\Booker.Domain.csproj",
+      "Version": 2,
+      "Source": "Booker.Domain",
+      "GetPublishAssetsTargets": "ComputeReferencedStaticWebAssetsPublishManifest;GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier"
+    }
+  ],
   "DiscoveryPatterns": [],
   "Assets": []
 }

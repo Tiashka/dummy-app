@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32804.467
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booker.Api", "Booker.Api\Booker.Api.csproj", "{C1984DBA-574B-4CA3-8EE1-7AF60D8BB20C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Booker.Api", "Booker.Api\Booker.Api.csproj", "{C1984DBA-574B-4CA3-8EE1-7AF60D8BB20C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booker.UI", "Booker.UI\Booker.UI.csproj", "{6FBA49BF-4B6A-4EFA-957D-56B03858ABD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Booker.Domain", "Booker.Domain\Booker.Domain.csproj", "{6AB0938E-72BC-4420-BECD-72AE19936571}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{C1984DBA-574B-4CA3-8EE1-7AF60D8BB20C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C1984DBA-574B-4CA3-8EE1-7AF60D8BB20C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C1984DBA-574B-4CA3-8EE1-7AF60D8BB20C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6FBA49BF-4B6A-4EFA-957D-56B03858ABD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6FBA49BF-4B6A-4EFA-957D-56B03858ABD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6FBA49BF-4B6A-4EFA-957D-56B03858ABD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6FBA49BF-4B6A-4EFA-957D-56B03858ABD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6AB0938E-72BC-4420-BECD-72AE19936571}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6AB0938E-72BC-4420-BECD-72AE19936571}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6AB0938E-72BC-4420-BECD-72AE19936571}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6AB0938E-72BC-4420-BECD-72AE19936571}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

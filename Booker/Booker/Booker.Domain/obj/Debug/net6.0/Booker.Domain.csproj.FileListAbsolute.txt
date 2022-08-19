@@ -1,0 +1,15 @@
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.csproj.AssemblyReference.cache
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.AssemblyInfoInputs.cache
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.AssemblyInfo.cs
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.csproj.CoreCompileInputs.cache
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\bin\Debug\net6.0\Booker.Domain.deps.json
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\bin\Debug\net6.0\Booker.Domain.dll
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\bin\Debug\net6.0\Booker.Domain.pdb
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\staticwebassets.build.json
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\staticwebassets.development.json
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\scopedcss\bundle\Booker.Domain.styles.css
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.dll
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\refint\Booker.Domain.dll
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.pdb
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\ref\Booker.Domain.dll
