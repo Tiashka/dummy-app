@@ -16,11 +16,14 @@ namespace Booker.Api
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
+
+
             IConfigurationRoot configuration = new ConfigurationBuilder()
             .SetBasePath(Directory.GetCurrentDirectory())
             .AddJsonFile("appsettings.json")
             .AddUserSecrets(Assembly.GetExecutingAssembly(), true)
             .Build();
+
             var connectionString = configuration.GetConnectionString("Db_Connection");
             builder.Services.AddDbContext<BookerDbContext>(x => x.UseSqlServer(connectionString));
 

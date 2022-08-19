@@ -13,3 +13,7 @@ C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\De
 C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\refint\Booker.Domain.dll
 C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.pdb
 C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\ref\Booker.Domain.dll
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\bin\Debug\net6.0\Seed\Customers.json
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\bin\Debug\net6.0\Seed\Movies.json
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\bin\Debug\net6.0\Booker.Domain.runtimeconfig.json
+C:\Users\TiashkaSeetal\source\repos\dummy-app\Booker\Booker\Booker.Domain\obj\Debug\net6.0\Booker.Domain.genruntimeconfig.cache

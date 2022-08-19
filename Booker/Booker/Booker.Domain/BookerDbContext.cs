@@ -1,5 +1,6 @@
 ﻿using Booker.Domain.Entities;
 using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
 using System.Collections.Generic;
 
 namespace Booker.Domain
@@ -13,6 +14,28 @@ namespace Booker.Domain
 
         public DbSet<Customer> Customers{ get; set; }
         public DbSet<Movie> Movies{ get; set; }
+
+        protected override void OnModelCreating(ModelBuilder builder)
+        {
+            builder.Entity<Customer>().HasData(
+               getEntitySeedValues<Customer>()
+            ); 
+            builder.Entity<Movie>().HasData(
+                getEntitySeedValues<Movie>()
+            );
+        }
+
+        public List<T> getEntitySeedValues<T>()
+        {
+            var itemvalue = new List<T>();
+            using (StreamReader r = new StreamReader($"../Booker.Domain/Seed/{nameof(T)}.json"))
+            {
+                string json = r.ReadToEnd();
+                itemvalue = JsonConvert.DeserializeObject<List<T>>(json);
+            }
+            return itemvalue;
+        }
+
 
         //protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         //{

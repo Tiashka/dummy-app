@@ -1,0 +1,33 @@
+﻿[
+  {
+    "ID": "C2FAD76F-CB31-4141-AAA5-354C66D85546",
+    "Title": "Moana",
+    "Description": "Moana, daughter of chief Tui, embarks on a journey to return the heart of goddess Te Fitti from Maui, a demigod, after the plants and the fish on her island start dying due to a blight.",
+    "isRented": true,
+    "CustomerID": "66D0D543-45AD-48DF-B3C5-20FA37FE0B24"
+  },
+  {
+    "ID": "370C2E80-5967-44B1-86AE-B213A2A919CD",
+    "Title": "Ghostbusters",
+    "Description": "When Peter Venkman, Raymond Stantz and Egon Spengler lose their jobs as scientists, they start an establishment called Ghostbusters to fight the evil ghosts lurking in New York City.",
+    "isRented": false
+  },
+  {
+    "ID": "D4ED3892-008E-4972-9242-48EC14930065",
+    "Title": "Ready Player One",
+    "Description": "James Halliday designs a virtual reality and hides the keys to his fortune in it for a worthy player to find after his death. Wade, a teenager, sets out on a quest to find the keys and the fortune.",
+    "isRented": false
+  },
+  {
+    "ID": "C546E6EF-3EB1-43FE-B34F-89987B517152",
+    "Title": "Jurassic World",
+    "Description": "Four years after the destruction of Isla Nublar, dinosaurs now live and hunt alongside humans all over the world. This fragile balance will reshape the future and determine, once and for all, whether human beings are to remain the apex predators on a planet they now share with history's most fearsome creatures.",
+    "isRented": false
+  },
+  {
+    "ID": "ED95B142-1F1F-460E-8445-279F7AFF682D",
+    "Title": "Antman",
+    "Description": "Ant-Man is a 2015 American superhero film based on the Marvel Comics characters of the same name: Scott Lang and Hank Pym. Produced by Marvel Studios and distributed by Walt Disney Studios Motion Pictures, it is the 12th film in the Marvel Cinematic Universe (MCU).",
+    "isRented": false
+  }              
+]
